@@ -6,7 +6,7 @@
     --dark_color-primary: #1F2937;
     --light_color-primary: #F9FAF8;
     --light_color-secondary: #E5E7EB;
-    --button_color: #3882F6;
+    --blue_color: #3882F6;
 }
 
 * {
@@ -37,9 +37,9 @@ html {
 /* GENERAL STYLES */
 .signup {
     color: var(--light_color-primary);
-    background-color: var(--button_color);
+    background-color: var(--blue_color);
     /* Corners and padding relative to the button's font-size, consistent */
-    padding: 0.8em 2em;
+    padding: 0.75em 2em;
     border-radius: 0.25em;
     cursor: pointer;
 }
@@ -134,7 +134,7 @@ html {
 
 .card img {
     border-radius: 0.25em;
-    border: 2px solid var(--button_color);
+    border: 2px solid var(--blue_color);
 }
 
 /* BlockQuote Section */
@@ -166,4 +166,33 @@ html {
     font-weight: bold;
     font-style: normal;
     font-size: 18px;
+}
+
+/* Call-To-Action Section */
+.signup-section {
+    padding: 80px 120px;
+}
+
+.form {
+    background-color: var(--blue_color);
+    color: var(--light_color-primary);
+    border-radius: 0.25em;
+    padding: 32px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-left {
+    max-width: 600px;
+}
+
+.form-left p {
+    color: var(--light_color-secondary);
+    margin-top: 4px;
+}
+
+.signup.secondary {
+    border: 2px solid var(--light_color-primary);
 }
