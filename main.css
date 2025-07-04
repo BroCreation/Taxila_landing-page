@@ -48,14 +48,14 @@ html {
 .header {
     background-color: var(--dark_bgcolor);
     color: var(--light_color-primary);
-    padding: 0 120px 80px;
+    padding: 0 120px 100px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    padding: 18px 0;
 }
 
 .nav h1 {
@@ -71,7 +71,7 @@ html {
 
 .hero {
     display: flex;
-    margin-top: 32px;
+    margin-top: 58px;
     gap: 22px;
 }
 
@@ -193,6 +193,18 @@ html {
     margin-top: 4px;
 }
 
+.form-right {
+    flex-shrink: 0;
+}
+
 .signup.secondary {
     border: 2px solid var(--light_color-primary);
+}
+
+/* Footer Section */
+.footer {
+    background-color: var(--dark_bgcolor);
+    color: var(--light_color-secondary);
+    padding: 24px 0;
+    text-align: center;
 }
