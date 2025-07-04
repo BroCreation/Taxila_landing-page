@@ -72,7 +72,7 @@ html {
 .hero {
     display: flex;
     margin-top: 58px;
-    gap: 22px;
+    gap: 44px;
 }
 
 .hero-left,
